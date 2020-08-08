@@ -1,0 +1,2329 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="mainName.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="mainName.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 48pt, style=Bold</value>
+  </data>
+  <data name="mainName.Location" type="System.Drawing.Point, System.Drawing">
+    <value>267, 9</value>
+  </data>
+  <data name="mainName.Size" type="System.Drawing.Size, System.Drawing">
+    <value>901, 86</value>
+  </data>
+  <data name="mainName.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="mainName.Text" xml:space="preserve">
+    <value>Library Management System</value>
+  </data>
+  <data name="&gt;&gt;mainName.Name" xml:space="preserve">
+    <value>mainName</value>
+  </data>
+  <data name="&gt;&gt;mainName.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;mainName.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;mainName.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="selectButton.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 12pt, style=Bold</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="selectButton.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="selectButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>126, 370</value>
+  </data>
+  <data name="selectButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>192, 59</value>
+  </data>
+  <data name="selectButton.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="selectButton.Text" xml:space="preserve">
+    <value>Select Member</value>
+  </data>
+  <data name="&gt;&gt;selectButton.Name" xml:space="preserve">
+    <value>selectButton</value>
+  </data>
+  <data name="&gt;&gt;selectButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;selectButton.Parent" xml:space="preserve">
+    <value>LibraryMember</value>
+  </data>
+  <data name="&gt;&gt;selectButton.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="registerButton.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 12pt, style=Bold</value>
+  </data>
+  <data name="registerButton.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="registerButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 370</value>
+  </data>
+  <data name="registerButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>129, 59</value>
+  </data>
+  <data name="registerButton.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="registerButton.Text" xml:space="preserve">
+    <value>Register</value>
+  </data>
+  <data name="&gt;&gt;registerButton.Name" xml:space="preserve">
+    <value>registerButton</value>
+  </data>
+  <data name="&gt;&gt;registerButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;registerButton.Parent" xml:space="preserve">
+    <value>LibraryMember</value>
+  </data>
+  <data name="&gt;&gt;registerButton.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="deleteButton.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 12pt, style=Bold</value>
+  </data>
+  <data name="deleteButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>314, 370</value>
+  </data>
+  <data name="deleteButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>138, 59</value>
+  </data>
+  <data name="deleteButton.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="deleteButton.Text" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="&gt;&gt;deleteButton.Name" xml:space="preserve">
+    <value>deleteButton</value>
+  </data>
+  <data name="&gt;&gt;deleteButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;deleteButton.Parent" xml:space="preserve">
+    <value>LibraryMember</value>
+  </data>
+  <data name="&gt;&gt;deleteButton.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="memberIDTextBox.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="memberIDTextBox.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI Semibold, 11.25pt, style=Bold, Italic</value>
+  </data>
+  <data name="memberIDTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>135, 195</value>
+  </data>
+  <data name="memberIDTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>276, 28</value>
+  </data>
+  <data name="memberIDTextBox.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;memberIDTextBox.Name" xml:space="preserve">
+    <value>memberIDTextBox</value>
+  </data>
+  <data name="&gt;&gt;memberIDTextBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;memberIDTextBox.Parent" xml:space="preserve">
+    <value>LibraryMember</value>
+  </data>
+  <data name="&gt;&gt;memberIDTextBox.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="studentIDTextBox.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="studentIDTextBox.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI Semibold, 11.25pt, style=Bold, Italic</value>
+  </data>
+  <data name="studentIDTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>135, 161</value>
+  </data>
+  <data name="studentIDTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>276, 28</value>
+  </data>
+  <data name="studentIDTextBox.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;studentIDTextBox.Name" xml:space="preserve">
+    <value>studentIDTextBox</value>
+  </data>
+  <data name="&gt;&gt;studentIDTextBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;studentIDTextBox.Parent" xml:space="preserve">
+    <value>LibraryMember</value>
+  </data>
+  <data name="&gt;&gt;studentIDTextBox.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="lastNameTextbox.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="lastNameTextbox.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI Semibold, 11.25pt, style=Bold, Italic</value>
+  </data>
+  <data name="lastNameTextbox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>135, 127</value>
+  </data>
+  <data name="lastNameTextbox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>276, 28</value>
+  </data>
+  <data name="lastNameTextbox.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;lastNameTextbox.Name" xml:space="preserve">
+    <value>lastNameTextbox</value>
+  </data>
+  <data name="&gt;&gt;lastNameTextbox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lastNameTextbox.Parent" xml:space="preserve">
+    <value>LibraryMember</value>
+  </data>
+  <data name="&gt;&gt;lastNameTextbox.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="firstNameTextBox.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="firstNameTextBox.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI Semibold, 11.25pt, style=Bold, Italic</value>
+  </data>
+  <data name="firstNameTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>135, 93</value>
+  </data>
+  <data name="firstNameTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>276, 28</value>
+  </data>
+  <data name="firstNameTextBox.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;firstNameTextBox.Name" xml:space="preserve">
+    <value>firstNameTextBox</value>
+  </data>
+  <data name="&gt;&gt;firstNameTextBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;firstNameTextBox.Parent" xml:space="preserve">
+    <value>LibraryMember</value>
+  </data>
+  <data name="&gt;&gt;firstNameTextBox.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="titleTextBox.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="titleTextBox.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI Semibold, 11.25pt, style=Bold, Italic</value>
+  </data>
+  <data name="titleTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>135, 59</value>
+  </data>
+  <data name="titleTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>276, 28</value>
+  </data>
+  <data name="titleTextBox.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;titleTextBox.Name" xml:space="preserve">
+    <value>titleTextBox</value>
+  </data>
+  <data name="&gt;&gt;titleTextBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;titleTextBox.Parent" xml:space="preserve">
+    <value>LibraryMember</value>
+  </data>
+  <data name="&gt;&gt;titleTextBox.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="memberIDLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="memberIDLabel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI Semilight, 14.25pt</value>
+  </data>
+  <data name="memberIDLabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="memberIDLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>21, 195</value>
+  </data>
+  <data name="memberIDLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>108, 25</value>
+  </data>
+  <data name="memberIDLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="memberIDLabel.Text" xml:space="preserve">
+    <value>Member ID:</value>
+  </data>
+  <data name="&gt;&gt;memberIDLabel.Name" xml:space="preserve">
+    <value>memberIDLabel</value>
+  </data>
+  <data name="&gt;&gt;memberIDLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;memberIDLabel.Parent" xml:space="preserve">
+    <value>LibraryMember</value>
+  </data>
+  <data name="&gt;&gt;memberIDLabel.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="studentIDLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="studentIDLabel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI Semilight, 14.25pt</value>
+  </data>
+  <data name="studentIDLabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="studentIDLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>28, 161</value>
+  </data>
+  <data name="studentIDLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>101, 25</value>
+  </data>
+  <data name="studentIDLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="studentIDLabel.Text" xml:space="preserve">
+    <value>Student ID:</value>
+  </data>
+  <data name="&gt;&gt;studentIDLabel.Name" xml:space="preserve">
+    <value>studentIDLabel</value>
+  </data>
+  <data name="&gt;&gt;studentIDLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;studentIDLabel.Parent" xml:space="preserve">
+    <value>LibraryMember</value>
+  </data>
+  <data name="&gt;&gt;studentIDLabel.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="lastNameLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lastNameLabel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI Semilight, 14.25pt</value>
+  </data>
+  <data name="lastNameLabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lastNameLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>25, 127</value>
+  </data>
+  <data name="lastNameLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>104, 25</value>
+  </data>
+  <data name="lastNameLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="lastNameLabel.Text" xml:space="preserve">
+    <value>Last Name:</value>
+  </data>
+  <data name="&gt;&gt;lastNameLabel.Name" xml:space="preserve">
+    <value>lastNameLabel</value>
+  </data>
+  <data name="&gt;&gt;lastNameLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lastNameLabel.Parent" xml:space="preserve">
+    <value>LibraryMember</value>
+  </data>
+  <data name="&gt;&gt;lastNameLabel.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="firstNameLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="firstNameLabel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI Semilight, 14.25pt</value>
+  </data>
+  <data name="firstNameLabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="firstNameLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>25, 93</value>
+  </data>
+  <data name="firstNameLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>104, 25</value>
+  </data>
+  <data name="firstNameLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="firstNameLabel.Text" xml:space="preserve">
+    <value>First Name:</value>
+  </data>
+  <data name="&gt;&gt;firstNameLabel.Name" xml:space="preserve">
+    <value>firstNameLabel</value>
+  </data>
+  <data name="&gt;&gt;firstNameLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;firstNameLabel.Parent" xml:space="preserve">
+    <value>LibraryMember</value>
+  </data>
+  <data name="&gt;&gt;firstNameLabel.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="titleLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="titleLabel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI Semilight, 14.25pt</value>
+  </data>
+  <data name="titleLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>79, 59</value>
+  </data>
+  <data name="titleLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>50, 25</value>
+  </data>
+  <data name="titleLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="titleLabel.Text" xml:space="preserve">
+    <value>Title:</value>
+  </data>
+  <data name="&gt;&gt;titleLabel.Name" xml:space="preserve">
+    <value>titleLabel</value>
+  </data>
+  <data name="&gt;&gt;titleLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;titleLabel.Parent" xml:space="preserve">
+    <value>LibraryMember</value>
+  </data>
+  <data name="&gt;&gt;titleLabel.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="LibraryMember.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI Semibold, 18pt, style=Bold</value>
+  </data>
+  <data name="LibraryMember.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 139</value>
+  </data>
+  <data name="LibraryMember.Size" type="System.Drawing.Size, System.Drawing">
+    <value>489, 429</value>
+  </data>
+  <data name="LibraryMember.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="LibraryMember.Text" xml:space="preserve">
+    <value>Library Member</value>
+  </data>
+  <data name="&gt;&gt;LibraryMember.Name" xml:space="preserve">
+    <value>LibraryMember</value>
+  </data>
+  <data name="&gt;&gt;LibraryMember.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LibraryMember.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;LibraryMember.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <metadata name="BackgroundWorker1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <data name="&gt;&gt;Button1.Name" xml:space="preserve">
+    <value>Button1</value>
+  </data>
+  <data name="&gt;&gt;Button1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Button1.Parent" xml:space="preserve">
+    <value>bookDetails</value>
+  </data>
+  <data name="&gt;&gt;Button1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;selectBookButton.Name" xml:space="preserve">
+    <value>selectBookButton</value>
+  </data>
+  <data name="&gt;&gt;selectBookButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;selectBookButton.Parent" xml:space="preserve">
+    <value>bookDetails</value>
+  </data>
+  <data name="&gt;&gt;selectBookButton.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;bookIDTextBox.Name" xml:space="preserve">
+    <value>bookIDTextBox</value>
+  </data>
+  <data name="&gt;&gt;bookIDTextBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;bookIDTextBox.Parent" xml:space="preserve">
+    <value>bookDetails</value>
+  </data>
+  <data name="&gt;&gt;bookIDTextBox.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;categoryTextBox.Name" xml:space="preserve">
+    <value>categoryTextBox</value>
+  </data>
+  <data name="&gt;&gt;categoryTextBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;categoryTextBox.Parent" xml:space="preserve">
+    <value>bookDetails</value>
+  </data>
+  <data name="&gt;&gt;categoryTextBox.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;yearPubTextBox.Name" xml:space="preserve">
+    <value>yearPubTextBox</value>
+  </data>
+  <data name="&gt;&gt;yearPubTextBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;yearPubTextBox.Parent" xml:space="preserve">
+    <value>bookDetails</value>
+  </data>
+  <data name="&gt;&gt;yearPubTextBox.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;authorTextBox.Name" xml:space="preserve">
+    <value>authorTextBox</value>
+  </data>
+  <data name="&gt;&gt;authorTextBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;authorTextBox.Parent" xml:space="preserve">
+    <value>bookDetails</value>
+  </data>
+  <data name="&gt;&gt;authorTextBox.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;bookTitleTextBox.Name" xml:space="preserve">
+    <value>bookTitleTextBox</value>
+  </data>
+  <data name="&gt;&gt;bookTitleTextBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;bookTitleTextBox.Parent" xml:space="preserve">
+    <value>bookDetails</value>
+  </data>
+  <data name="&gt;&gt;bookTitleTextBox.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;isbnTextBox.Name" xml:space="preserve">
+    <value>isbnTextBox</value>
+  </data>
+  <data name="&gt;&gt;isbnTextBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;isbnTextBox.Parent" xml:space="preserve">
+    <value>bookDetails</value>
+  </data>
+  <data name="&gt;&gt;isbnTextBox.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;borrowedLabel.Name" xml:space="preserve">
+    <value>borrowedLabel</value>
+  </data>
+  <data name="&gt;&gt;borrowedLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;borrowedLabel.Parent" xml:space="preserve">
+    <value>bookDetails</value>
+  </data>
+  <data name="&gt;&gt;borrowedLabel.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;borrowedCheckBox.Name" xml:space="preserve">
+    <value>borrowedCheckBox</value>
+  </data>
+  <data name="&gt;&gt;borrowedCheckBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;borrowedCheckBox.Parent" xml:space="preserve">
+    <value>bookDetails</value>
+  </data>
+  <data name="&gt;&gt;borrowedCheckBox.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;bookidLabel.Name" xml:space="preserve">
+    <value>bookidLabel</value>
+  </data>
+  <data name="&gt;&gt;bookidLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;bookidLabel.Parent" xml:space="preserve">
+    <value>bookDetails</value>
+  </data>
+  <data name="&gt;&gt;bookidLabel.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;categoryLabel.Name" xml:space="preserve">
+    <value>categoryLabel</value>
+  </data>
+  <data name="&gt;&gt;categoryLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;categoryLabel.Parent" xml:space="preserve">
+    <value>bookDetails</value>
+  </data>
+  <data name="&gt;&gt;categoryLabel.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="&gt;&gt;yearLabel.Name" xml:space="preserve">
+    <value>yearLabel</value>
+  </data>
+  <data name="&gt;&gt;yearLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;yearLabel.Parent" xml:space="preserve">
+    <value>bookDetails</value>
+  </data>
+  <data name="&gt;&gt;yearLabel.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="&gt;&gt;authorLabel.Name" xml:space="preserve">
+    <value>authorLabel</value>
+  </data>
+  <data name="&gt;&gt;authorLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;authorLabel.Parent" xml:space="preserve">
+    <value>bookDetails</value>
+  </data>
+  <data name="&gt;&gt;authorLabel.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="&gt;&gt;bookTitleLabel.Name" xml:space="preserve">
+    <value>bookTitleLabel</value>
+  </data>
+  <data name="&gt;&gt;bookTitleLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;bookTitleLabel.Parent" xml:space="preserve">
+    <value>bookDetails</value>
+  </data>
+  <data name="&gt;&gt;bookTitleLabel.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="&gt;&gt;isbnLabel.Name" xml:space="preserve">
+    <value>isbnLabel</value>
+  </data>
+  <data name="&gt;&gt;isbnLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;isbnLabel.Parent" xml:space="preserve">
+    <value>bookDetails</value>
+  </data>
+  <data name="&gt;&gt;isbnLabel.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="bookDetails.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI Semibold, 18pt, style=Bold</value>
+  </data>
+  <data name="bookDetails.Location" type="System.Drawing.Point, System.Drawing">
+    <value>507, 139</value>
+  </data>
+  <data name="bookDetails.Size" type="System.Drawing.Size, System.Drawing">
+    <value>585, 429</value>
+  </data>
+  <data name="bookDetails.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="bookDetails.Text" xml:space="preserve">
+    <value>Book Details</value>
+  </data>
+  <data name="&gt;&gt;bookDetails.Name" xml:space="preserve">
+    <value>bookDetails</value>
+  </data>
+  <data name="&gt;&gt;bookDetails.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;bookDetails.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;bookDetails.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="Button1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>299, 365</value>
+  </data>
+  <data name="Button1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>286, 58</value>
+  </data>
+  <data name="Button1.TabIndex" type="System.Int32, mscorlib">
+    <value>19</value>
+  </data>
+  <data name="Button1.Text" xml:space="preserve">
+    <value>ADD</value>
+  </data>
+  <data name="&gt;&gt;Button1.Name" xml:space="preserve">
+    <value>Button1</value>
+  </data>
+  <data name="&gt;&gt;Button1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Button1.Parent" xml:space="preserve">
+    <value>bookDetails</value>
+  </data>
+  <data name="&gt;&gt;Button1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="selectBookButton.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 20pt, style=Bold</value>
+  </data>
+  <data name="selectBookButton.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="selectBookButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 365</value>
+  </data>
+  <data name="selectBookButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>293, 59</value>
+  </data>
+  <data name="selectBookButton.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="selectBookButton.Text" xml:space="preserve">
+    <value>Select Book</value>
+  </data>
+  <data name="&gt;&gt;selectBookButton.Name" xml:space="preserve">
+    <value>selectBookButton</value>
+  </data>
+  <data name="&gt;&gt;selectBookButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;selectBookButton.Parent" xml:space="preserve">
+    <value>bookDetails</value>
+  </data>
+  <data name="&gt;&gt;selectBookButton.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="bookIDTextBox.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="bookIDTextBox.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI Semibold, 11.25pt, style=Bold, Italic</value>
+  </data>
+  <data name="bookIDTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>147, 225</value>
+  </data>
+  <data name="bookIDTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>384, 28</value>
+  </data>
+  <data name="bookIDTextBox.TabIndex" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="&gt;&gt;bookIDTextBox.Name" xml:space="preserve">
+    <value>bookIDTextBox</value>
+  </data>
+  <data name="&gt;&gt;bookIDTextBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;bookIDTextBox.Parent" xml:space="preserve">
+    <value>bookDetails</value>
+  </data>
+  <data name="&gt;&gt;bookIDTextBox.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="categoryTextBox.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="categoryTextBox.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI Semibold, 11.25pt, style=Bold, Italic</value>
+  </data>
+  <data name="categoryTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>147, 192</value>
+  </data>
+  <data name="categoryTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>384, 28</value>
+  </data>
+  <data name="categoryTextBox.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="&gt;&gt;categoryTextBox.Name" xml:space="preserve">
+    <value>categoryTextBox</value>
+  </data>
+  <data name="&gt;&gt;categoryTextBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;categoryTextBox.Parent" xml:space="preserve">
+    <value>bookDetails</value>
+  </data>
+  <data name="&gt;&gt;categoryTextBox.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="yearPubTextBox.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="yearPubTextBox.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI Semibold, 11.25pt, style=Bold, Italic</value>
+  </data>
+  <data name="yearPubTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>147, 159</value>
+  </data>
+  <data name="yearPubTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>384, 28</value>
+  </data>
+  <data name="yearPubTextBox.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="&gt;&gt;yearPubTextBox.Name" xml:space="preserve">
+    <value>yearPubTextBox</value>
+  </data>
+  <data name="&gt;&gt;yearPubTextBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;yearPubTextBox.Parent" xml:space="preserve">
+    <value>bookDetails</value>
+  </data>
+  <data name="&gt;&gt;yearPubTextBox.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="authorTextBox.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="authorTextBox.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI Semibold, 11.25pt, style=Bold, Italic</value>
+  </data>
+  <data name="authorTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>147, 126</value>
+  </data>
+  <data name="authorTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>384, 28</value>
+  </data>
+  <data name="authorTextBox.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="&gt;&gt;authorTextBox.Name" xml:space="preserve">
+    <value>authorTextBox</value>
+  </data>
+  <data name="&gt;&gt;authorTextBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;authorTextBox.Parent" xml:space="preserve">
+    <value>bookDetails</value>
+  </data>
+  <data name="&gt;&gt;authorTextBox.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="bookTitleTextBox.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="bookTitleTextBox.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI Semibold, 11.25pt, style=Bold, Italic</value>
+  </data>
+  <data name="bookTitleTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>147, 93</value>
+  </data>
+  <data name="bookTitleTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>384, 28</value>
+  </data>
+  <data name="bookTitleTextBox.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="&gt;&gt;bookTitleTextBox.Name" xml:space="preserve">
+    <value>bookTitleTextBox</value>
+  </data>
+  <data name="&gt;&gt;bookTitleTextBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;bookTitleTextBox.Parent" xml:space="preserve">
+    <value>bookDetails</value>
+  </data>
+  <data name="&gt;&gt;bookTitleTextBox.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="isbnTextBox.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="isbnTextBox.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI Semibold, 11.25pt, style=Bold, Italic</value>
+  </data>
+  <data name="isbnTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>147, 60</value>
+  </data>
+  <data name="isbnTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>384, 28</value>
+  </data>
+  <data name="isbnTextBox.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="&gt;&gt;isbnTextBox.Name" xml:space="preserve">
+    <value>isbnTextBox</value>
+  </data>
+  <data name="&gt;&gt;isbnTextBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;isbnTextBox.Parent" xml:space="preserve">
+    <value>bookDetails</value>
+  </data>
+  <data name="&gt;&gt;isbnTextBox.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="borrowedLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="borrowedLabel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI Semilight, 14.25pt</value>
+  </data>
+  <data name="borrowedLabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="borrowedLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>41, 280</value>
+  </data>
+  <data name="borrowedLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 25</value>
+  </data>
+  <data name="borrowedLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="borrowedLabel.Text" xml:space="preserve">
+    <value>Borrowed: </value>
+  </data>
+  <data name="&gt;&gt;borrowedLabel.Name" xml:space="preserve">
+    <value>borrowedLabel</value>
+  </data>
+  <data name="&gt;&gt;borrowedLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;borrowedLabel.Parent" xml:space="preserve">
+    <value>bookDetails</value>
+  </data>
+  <data name="&gt;&gt;borrowedLabel.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="borrowedCheckBox.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="borrowedCheckBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>147, 284</value>
+  </data>
+  <data name="borrowedCheckBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>15, 14</value>
+  </data>
+  <data name="borrowedCheckBox.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;borrowedCheckBox.Name" xml:space="preserve">
+    <value>borrowedCheckBox</value>
+  </data>
+  <data name="&gt;&gt;borrowedCheckBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;borrowedCheckBox.Parent" xml:space="preserve">
+    <value>bookDetails</value>
+  </data>
+  <data name="&gt;&gt;borrowedCheckBox.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="bookidLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="bookidLabel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI Semilight, 14.25pt</value>
+  </data>
+  <data name="bookidLabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="bookidLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>55, 228</value>
+  </data>
+  <data name="bookidLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>86, 25</value>
+  </data>
+  <data name="bookidLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="bookidLabel.Text" xml:space="preserve">
+    <value>Book ID: </value>
+  </data>
+  <data name="&gt;&gt;bookidLabel.Name" xml:space="preserve">
+    <value>bookidLabel</value>
+  </data>
+  <data name="&gt;&gt;bookidLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;bookidLabel.Parent" xml:space="preserve">
+    <value>bookDetails</value>
+  </data>
+  <data name="&gt;&gt;bookidLabel.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="categoryLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="categoryLabel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI Semilight, 14.25pt</value>
+  </data>
+  <data name="categoryLabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="categoryLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>44, 195</value>
+  </data>
+  <data name="categoryLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>97, 25</value>
+  </data>
+  <data name="categoryLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="categoryLabel.Text" xml:space="preserve">
+    <value>Category: </value>
+  </data>
+  <data name="&gt;&gt;categoryLabel.Name" xml:space="preserve">
+    <value>categoryLabel</value>
+  </data>
+  <data name="&gt;&gt;categoryLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;categoryLabel.Parent" xml:space="preserve">
+    <value>bookDetails</value>
+  </data>
+  <data name="&gt;&gt;categoryLabel.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="yearLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="yearLabel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI Semilight, 14.25pt</value>
+  </data>
+  <data name="yearLabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="yearLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>85, 162</value>
+  </data>
+  <data name="yearLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>56, 25</value>
+  </data>
+  <data name="yearLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="yearLabel.Text" xml:space="preserve">
+    <value>Year: </value>
+  </data>
+  <data name="&gt;&gt;yearLabel.Name" xml:space="preserve">
+    <value>yearLabel</value>
+  </data>
+  <data name="&gt;&gt;yearLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;yearLabel.Parent" xml:space="preserve">
+    <value>bookDetails</value>
+  </data>
+  <data name="&gt;&gt;yearLabel.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="authorLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="authorLabel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI Semilight, 14.25pt</value>
+  </data>
+  <data name="authorLabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="authorLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>64, 129</value>
+  </data>
+  <data name="authorLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>77, 25</value>
+  </data>
+  <data name="authorLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="authorLabel.Text" xml:space="preserve">
+    <value>Author: </value>
+  </data>
+  <data name="&gt;&gt;authorLabel.Name" xml:space="preserve">
+    <value>authorLabel</value>
+  </data>
+  <data name="&gt;&gt;authorLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;authorLabel.Parent" xml:space="preserve">
+    <value>bookDetails</value>
+  </data>
+  <data name="&gt;&gt;authorLabel.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="bookTitleLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="bookTitleLabel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI Semilight, 14.25pt</value>
+  </data>
+  <data name="bookTitleLabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="bookTitleLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>39, 96</value>
+  </data>
+  <data name="bookTitleLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>102, 25</value>
+  </data>
+  <data name="bookTitleLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="bookTitleLabel.Text" xml:space="preserve">
+    <value>Book Title: </value>
+  </data>
+  <data name="&gt;&gt;bookTitleLabel.Name" xml:space="preserve">
+    <value>bookTitleLabel</value>
+  </data>
+  <data name="&gt;&gt;bookTitleLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;bookTitleLabel.Parent" xml:space="preserve">
+    <value>bookDetails</value>
+  </data>
+  <data name="&gt;&gt;bookTitleLabel.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="isbnLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="isbnLabel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI Semilight, 14.25pt</value>
+  </data>
+  <data name="isbnLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>80, 63</value>
+  </data>
+  <data name="isbnLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>61, 25</value>
+  </data>
+  <data name="isbnLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="isbnLabel.Text" xml:space="preserve">
+    <value>ISBN: </value>
+  </data>
+  <data name="&gt;&gt;isbnLabel.Name" xml:space="preserve">
+    <value>isbnLabel</value>
+  </data>
+  <data name="&gt;&gt;isbnLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;isbnLabel.Parent" xml:space="preserve">
+    <value>bookDetails</value>
+  </data>
+  <data name="&gt;&gt;isbnLabel.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="&gt;&gt;NumericUpDown1.Name" xml:space="preserve">
+    <value>NumericUpDown1</value>
+  </data>
+  <data name="&gt;&gt;NumericUpDown1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;NumericUpDown1.Parent" xml:space="preserve">
+    <value>libraryLoanInfo</value>
+  </data>
+  <data name="&gt;&gt;NumericUpDown1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;lliborrowedButton.Name" xml:space="preserve">
+    <value>lliborrowedButton</value>
+  </data>
+  <data name="&gt;&gt;lliborrowedButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lliborrowedButton.Parent" xml:space="preserve">
+    <value>libraryLoanInfo</value>
+  </data>
+  <data name="&gt;&gt;lliborrowedButton.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;llilateReturnFineTextBox.Name" xml:space="preserve">
+    <value>llilateReturnFineTextBox</value>
+  </data>
+  <data name="&gt;&gt;llilateReturnFineTextBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;llilateReturnFineTextBox.Parent" xml:space="preserve">
+    <value>libraryLoanInfo</value>
+  </data>
+  <data name="&gt;&gt;llilateReturnFineTextBox.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;llilateReturnFineLabel.Name" xml:space="preserve">
+    <value>llilateReturnFineLabel</value>
+  </data>
+  <data name="&gt;&gt;llilateReturnFineLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;llilateReturnFineLabel.Parent" xml:space="preserve">
+    <value>libraryLoanInfo</value>
+  </data>
+  <data name="&gt;&gt;llilateReturnFineLabel.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;llidateReturnButton.Name" xml:space="preserve">
+    <value>llidateReturnButton</value>
+  </data>
+  <data name="&gt;&gt;llidateReturnButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;llidateReturnButton.Parent" xml:space="preserve">
+    <value>libraryLoanInfo</value>
+  </data>
+  <data name="&gt;&gt;llidateReturnButton.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;llidateReturnResult.Name" xml:space="preserve">
+    <value>llidateReturnResult</value>
+  </data>
+  <data name="&gt;&gt;llidateReturnResult.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;llidateReturnResult.Parent" xml:space="preserve">
+    <value>libraryLoanInfo</value>
+  </data>
+  <data name="&gt;&gt;llidateReturnResult.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;llidateReturnTextBox.Name" xml:space="preserve">
+    <value>llidateReturnTextBox</value>
+  </data>
+  <data name="&gt;&gt;llidateReturnTextBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;llidateReturnTextBox.Parent" xml:space="preserve">
+    <value>libraryLoanInfo</value>
+  </data>
+  <data name="&gt;&gt;llidateReturnTextBox.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;llidueDateTextBox.Name" xml:space="preserve">
+    <value>llidueDateTextBox</value>
+  </data>
+  <data name="&gt;&gt;llidueDateTextBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;llidueDateTextBox.Parent" xml:space="preserve">
+    <value>libraryLoanInfo</value>
+  </data>
+  <data name="&gt;&gt;llidueDateTextBox.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;llidateBorrowTextBox.Name" xml:space="preserve">
+    <value>llidateBorrowTextBox</value>
+  </data>
+  <data name="&gt;&gt;llidateBorrowTextBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;llidateBorrowTextBox.Parent" xml:space="preserve">
+    <value>libraryLoanInfo</value>
+  </data>
+  <data name="&gt;&gt;llidateBorrowTextBox.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;llimemberIDTextBox.Name" xml:space="preserve">
+    <value>llimemberIDTextBox</value>
+  </data>
+  <data name="&gt;&gt;llimemberIDTextBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;llimemberIDTextBox.Parent" xml:space="preserve">
+    <value>libraryLoanInfo</value>
+  </data>
+  <data name="&gt;&gt;llimemberIDTextBox.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;lliBookIDTextBox.Name" xml:space="preserve">
+    <value>lliBookIDTextBox</value>
+  </data>
+  <data name="&gt;&gt;lliBookIDTextBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lliBookIDTextBox.Parent" xml:space="preserve">
+    <value>libraryLoanInfo</value>
+  </data>
+  <data name="&gt;&gt;lliBookIDTextBox.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;llidateReturn.Name" xml:space="preserve">
+    <value>llidateReturn</value>
+  </data>
+  <data name="&gt;&gt;llidateReturn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;llidateReturn.Parent" xml:space="preserve">
+    <value>libraryLoanInfo</value>
+  </data>
+  <data name="&gt;&gt;llidateReturn.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="&gt;&gt;llibookIDLabel.Name" xml:space="preserve">
+    <value>llibookIDLabel</value>
+  </data>
+  <data name="&gt;&gt;llibookIDLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;llibookIDLabel.Parent" xml:space="preserve">
+    <value>libraryLoanInfo</value>
+  </data>
+  <data name="&gt;&gt;llibookIDLabel.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="&gt;&gt;llidueDate.Name" xml:space="preserve">
+    <value>llidueDate</value>
+  </data>
+  <data name="&gt;&gt;llidueDate.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;llidueDate.Parent" xml:space="preserve">
+    <value>libraryLoanInfo</value>
+  </data>
+  <data name="&gt;&gt;llidueDate.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="&gt;&gt;llimemberIDLabel.Name" xml:space="preserve">
+    <value>llimemberIDLabel</value>
+  </data>
+  <data name="&gt;&gt;llimemberIDLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;llimemberIDLabel.Parent" xml:space="preserve">
+    <value>libraryLoanInfo</value>
+  </data>
+  <data name="&gt;&gt;llimemberIDLabel.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="&gt;&gt;llidateborrowLabel.Name" xml:space="preserve">
+    <value>llidateborrowLabel</value>
+  </data>
+  <data name="&gt;&gt;llidateborrowLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;llidateborrowLabel.Parent" xml:space="preserve">
+    <value>libraryLoanInfo</value>
+  </data>
+  <data name="&gt;&gt;llidateborrowLabel.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="libraryLoanInfo.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI Semibold, 18pt, style=Bold</value>
+  </data>
+  <data name="libraryLoanInfo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1098, 140</value>
+  </data>
+  <data name="libraryLoanInfo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>525, 429</value>
+  </data>
+  <data name="libraryLoanInfo.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="libraryLoanInfo.Text" xml:space="preserve">
+    <value>Library Loan Information</value>
+  </data>
+  <data name="&gt;&gt;libraryLoanInfo.Name" xml:space="preserve">
+    <value>libraryLoanInfo</value>
+  </data>
+  <data name="&gt;&gt;libraryLoanInfo.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;libraryLoanInfo.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;libraryLoanInfo.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="NumericUpDown1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI Semibold, 16pt, style=Bold</value>
+  </data>
+  <data name="NumericUpDown1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>16, 370</value>
+  </data>
+  <data name="NumericUpDown1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>146, 36</value>
+  </data>
+  <data name="NumericUpDown1.TabIndex" type="System.Int32, mscorlib">
+    <value>32</value>
+  </data>
+  <data name="&gt;&gt;NumericUpDown1.Name" xml:space="preserve">
+    <value>NumericUpDown1</value>
+  </data>
+  <data name="&gt;&gt;NumericUpDown1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;NumericUpDown1.Parent" xml:space="preserve">
+    <value>libraryLoanInfo</value>
+  </data>
+  <data name="&gt;&gt;NumericUpDown1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="lliborrowedButton.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 14pt, style=Bold</value>
+  </data>
+  <data name="lliborrowedButton.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lliborrowedButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>181, 370</value>
+  </data>
+  <data name="lliborrowedButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>327, 43</value>
+  </data>
+  <data name="lliborrowedButton.TabIndex" type="System.Int32, mscorlib">
+    <value>31</value>
+  </data>
+  <data name="lliborrowedButton.Text" xml:space="preserve">
+    <value>Borrow</value>
+  </data>
+  <data name="&gt;&gt;lliborrowedButton.Name" xml:space="preserve">
+    <value>lliborrowedButton</value>
+  </data>
+  <data name="&gt;&gt;lliborrowedButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lliborrowedButton.Parent" xml:space="preserve">
+    <value>libraryLoanInfo</value>
+  </data>
+  <data name="&gt;&gt;lliborrowedButton.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="llilateReturnFineTextBox.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="llilateReturnFineTextBox.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI Semibold, 11.25pt, style=Bold, Italic</value>
+  </data>
+  <data name="llilateReturnFineTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>181, 328</value>
+  </data>
+  <data name="llilateReturnFineTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>327, 28</value>
+  </data>
+  <data name="llilateReturnFineTextBox.TabIndex" type="System.Int32, mscorlib">
+    <value>30</value>
+  </data>
+  <data name="&gt;&gt;llilateReturnFineTextBox.Name" xml:space="preserve">
+    <value>llilateReturnFineTextBox</value>
+  </data>
+  <data name="&gt;&gt;llilateReturnFineTextBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;llilateReturnFineTextBox.Parent" xml:space="preserve">
+    <value>libraryLoanInfo</value>
+  </data>
+  <data name="&gt;&gt;llilateReturnFineTextBox.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="llilateReturnFineLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="llilateReturnFineLabel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI Semilight, 14.25pt</value>
+  </data>
+  <data name="llilateReturnFineLabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="llilateReturnFineLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>11, 327</value>
+  </data>
+  <data name="llilateReturnFineLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>151, 25</value>
+  </data>
+  <data name="llilateReturnFineLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>29</value>
+  </data>
+  <data name="llilateReturnFineLabel.Text" xml:space="preserve">
+    <value>Late Return Fine: </value>
+  </data>
+  <data name="&gt;&gt;llilateReturnFineLabel.Name" xml:space="preserve">
+    <value>llilateReturnFineLabel</value>
+  </data>
+  <data name="&gt;&gt;llilateReturnFineLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;llilateReturnFineLabel.Parent" xml:space="preserve">
+    <value>libraryLoanInfo</value>
+  </data>
+  <data name="&gt;&gt;llilateReturnFineLabel.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="llidateReturnButton.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 14pt, style=Bold</value>
+  </data>
+  <data name="llidateReturnButton.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="llidateReturnButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>181, 270</value>
+  </data>
+  <data name="llidateReturnButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>327, 43</value>
+  </data>
+  <data name="llidateReturnButton.TabIndex" type="System.Int32, mscorlib">
+    <value>19</value>
+  </data>
+  <data name="llidateReturnButton.Text" xml:space="preserve">
+    <value>Date Return</value>
+  </data>
+  <data name="&gt;&gt;llidateReturnButton.Name" xml:space="preserve">
+    <value>llidateReturnButton</value>
+  </data>
+  <data name="&gt;&gt;llidateReturnButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;llidateReturnButton.Parent" xml:space="preserve">
+    <value>libraryLoanInfo</value>
+  </data>
+  <data name="&gt;&gt;llidateReturnButton.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="llidateReturnResult.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="llidateReturnResult.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI Semilight, 15pt</value>
+  </data>
+  <data name="llidateReturnResult.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="llidateReturnResult.Location" type="System.Drawing.Point, System.Drawing">
+    <value>138, 232</value>
+  </data>
+  <data name="llidateReturnResult.Size" type="System.Drawing.Size, System.Drawing">
+    <value>198, 28</value>
+  </data>
+  <data name="llidateReturnResult.TabIndex" type="System.Int32, mscorlib">
+    <value>28</value>
+  </data>
+  <data name="llidateReturnResult.Text" xml:space="preserve">
+    <value>Click the button below</value>
+  </data>
+  <data name="&gt;&gt;llidateReturnResult.Name" xml:space="preserve">
+    <value>llidateReturnResult</value>
+  </data>
+  <data name="&gt;&gt;llidateReturnResult.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;llidateReturnResult.Parent" xml:space="preserve">
+    <value>libraryLoanInfo</value>
+  </data>
+  <data name="&gt;&gt;llidateReturnResult.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="llidateReturnTextBox.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI Semibold, 11.25pt, style=Bold, Italic</value>
+  </data>
+  <data name="llidateReturnTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>181, 202</value>
+  </data>
+  <data name="llidateReturnTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>327, 28</value>
+  </data>
+  <data name="llidateReturnTextBox.TabIndex" type="System.Int32, mscorlib">
+    <value>27</value>
+  </data>
+  <data name="&gt;&gt;llidateReturnTextBox.Name" xml:space="preserve">
+    <value>llidateReturnTextBox</value>
+  </data>
+  <data name="&gt;&gt;llidateReturnTextBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;llidateReturnTextBox.Parent" xml:space="preserve">
+    <value>libraryLoanInfo</value>
+  </data>
+  <data name="&gt;&gt;llidateReturnTextBox.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="llidueDateTextBox.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="llidueDateTextBox.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI Semibold, 11.25pt, style=Bold, Italic</value>
+  </data>
+  <data name="llidueDateTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>181, 168</value>
+  </data>
+  <data name="llidueDateTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>327, 28</value>
+  </data>
+  <data name="llidueDateTextBox.TabIndex" type="System.Int32, mscorlib">
+    <value>26</value>
+  </data>
+  <data name="&gt;&gt;llidueDateTextBox.Name" xml:space="preserve">
+    <value>llidueDateTextBox</value>
+  </data>
+  <data name="&gt;&gt;llidueDateTextBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;llidueDateTextBox.Parent" xml:space="preserve">
+    <value>libraryLoanInfo</value>
+  </data>
+  <data name="&gt;&gt;llidueDateTextBox.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="llidateBorrowTextBox.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="llidateBorrowTextBox.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI Semibold, 11.25pt, style=Bold, Italic</value>
+  </data>
+  <data name="llidateBorrowTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>181, 134</value>
+  </data>
+  <data name="llidateBorrowTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>327, 28</value>
+  </data>
+  <data name="llidateBorrowTextBox.TabIndex" type="System.Int32, mscorlib">
+    <value>25</value>
+  </data>
+  <data name="&gt;&gt;llidateBorrowTextBox.Name" xml:space="preserve">
+    <value>llidateBorrowTextBox</value>
+  </data>
+  <data name="&gt;&gt;llidateBorrowTextBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;llidateBorrowTextBox.Parent" xml:space="preserve">
+    <value>libraryLoanInfo</value>
+  </data>
+  <data name="&gt;&gt;llidateBorrowTextBox.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="llimemberIDTextBox.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="llimemberIDTextBox.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI Semibold, 11.25pt, style=Bold, Italic</value>
+  </data>
+  <data name="llimemberIDTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>181, 100</value>
+  </data>
+  <data name="llimemberIDTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>327, 28</value>
+  </data>
+  <data name="llimemberIDTextBox.TabIndex" type="System.Int32, mscorlib">
+    <value>24</value>
+  </data>
+  <data name="&gt;&gt;llimemberIDTextBox.Name" xml:space="preserve">
+    <value>llimemberIDTextBox</value>
+  </data>
+  <data name="&gt;&gt;llimemberIDTextBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;llimemberIDTextBox.Parent" xml:space="preserve">
+    <value>libraryLoanInfo</value>
+  </data>
+  <data name="&gt;&gt;llimemberIDTextBox.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="lliBookIDTextBox.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="lliBookIDTextBox.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI Semibold, 11.25pt, style=Bold, Italic</value>
+  </data>
+  <data name="lliBookIDTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>181, 66</value>
+  </data>
+  <data name="lliBookIDTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>327, 28</value>
+  </data>
+  <data name="lliBookIDTextBox.TabIndex" type="System.Int32, mscorlib">
+    <value>19</value>
+  </data>
+  <data name="&gt;&gt;lliBookIDTextBox.Name" xml:space="preserve">
+    <value>lliBookIDTextBox</value>
+  </data>
+  <data name="&gt;&gt;lliBookIDTextBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lliBookIDTextBox.Parent" xml:space="preserve">
+    <value>libraryLoanInfo</value>
+  </data>
+  <data name="&gt;&gt;lliBookIDTextBox.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="llidateReturn.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="llidateReturn.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI Semilight, 14.25pt</value>
+  </data>
+  <data name="llidateReturn.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="llidateReturn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>45, 201</value>
+  </data>
+  <data name="llidateReturn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>117, 25</value>
+  </data>
+  <data name="llidateReturn.TabIndex" type="System.Int32, mscorlib">
+    <value>23</value>
+  </data>
+  <data name="llidateReturn.Text" xml:space="preserve">
+    <value>Date Return: </value>
+  </data>
+  <data name="&gt;&gt;llidateReturn.Name" xml:space="preserve">
+    <value>llidateReturn</value>
+  </data>
+  <data name="&gt;&gt;llidateReturn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;llidateReturn.Parent" xml:space="preserve">
+    <value>libraryLoanInfo</value>
+  </data>
+  <data name="&gt;&gt;llidateReturn.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="llibookIDLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="llibookIDLabel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI Semilight, 14.25pt</value>
+  </data>
+  <data name="llibookIDLabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="llibookIDLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>76, 65</value>
+  </data>
+  <data name="llibookIDLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>86, 25</value>
+  </data>
+  <data name="llibookIDLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>19</value>
+  </data>
+  <data name="llibookIDLabel.Text" xml:space="preserve">
+    <value>Book ID: </value>
+  </data>
+  <data name="&gt;&gt;llibookIDLabel.Name" xml:space="preserve">
+    <value>llibookIDLabel</value>
+  </data>
+  <data name="&gt;&gt;llibookIDLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;llibookIDLabel.Parent" xml:space="preserve">
+    <value>libraryLoanInfo</value>
+  </data>
+  <data name="&gt;&gt;llibookIDLabel.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="llidueDate.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="llidueDate.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI Semilight, 14.25pt</value>
+  </data>
+  <data name="llidueDate.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="llidueDate.Location" type="System.Drawing.Point, System.Drawing">
+    <value>64, 167</value>
+  </data>
+  <data name="llidueDate.Size" type="System.Drawing.Size, System.Drawing">
+    <value>98, 25</value>
+  </data>
+  <data name="llidueDate.TabIndex" type="System.Int32, mscorlib">
+    <value>22</value>
+  </data>
+  <data name="llidueDate.Text" xml:space="preserve">
+    <value>Due Date: </value>
+  </data>
+  <data name="&gt;&gt;llidueDate.Name" xml:space="preserve">
+    <value>llidueDate</value>
+  </data>
+  <data name="&gt;&gt;llidueDate.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;llidueDate.Parent" xml:space="preserve">
+    <value>libraryLoanInfo</value>
+  </data>
+  <data name="&gt;&gt;llidueDate.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="llimemberIDLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="llimemberIDLabel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI Semilight, 14.25pt</value>
+  </data>
+  <data name="llimemberIDLabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="llimemberIDLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>49, 99</value>
+  </data>
+  <data name="llimemberIDLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>113, 25</value>
+  </data>
+  <data name="llimemberIDLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="llimemberIDLabel.Text" xml:space="preserve">
+    <value>Member ID: </value>
+  </data>
+  <data name="&gt;&gt;llimemberIDLabel.Name" xml:space="preserve">
+    <value>llimemberIDLabel</value>
+  </data>
+  <data name="&gt;&gt;llimemberIDLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;llimemberIDLabel.Parent" xml:space="preserve">
+    <value>libraryLoanInfo</value>
+  </data>
+  <data name="&gt;&gt;llimemberIDLabel.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="llidateborrowLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="llidateborrowLabel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI Semilight, 14.25pt</value>
+  </data>
+  <data name="llidateborrowLabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="llidateborrowLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>39, 133</value>
+  </data>
+  <data name="llidateborrowLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>123, 25</value>
+  </data>
+  <data name="llidateborrowLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>21</value>
+  </data>
+  <data name="llidateborrowLabel.Text" xml:space="preserve">
+    <value>Date Borrow: </value>
+  </data>
+  <data name="&gt;&gt;llidateborrowLabel.Name" xml:space="preserve">
+    <value>llidateborrowLabel</value>
+  </data>
+  <data name="&gt;&gt;llidateborrowLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;llidateborrowLabel.Parent" xml:space="preserve">
+    <value>libraryLoanInfo</value>
+  </data>
+  <data name="&gt;&gt;llidateborrowLabel.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>117</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>1635, 581</value>
+  </data>
+  <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAABAAUAEBAAAAEAIABoBAAAVgAAABgYAAABACAAiAkAAL4EAAAgIAAAAQAgAKgQAABGDgAAMDAAAAEA
+        IACoJQAA7h4AAAAAAAABACAAlg0AAJZEAAAoAAAAEAAAACAAAAABACAAAAAAAAAEAACJCwAAiQsAAAAA
+        AAAAAAAAAAAAAgAAAGMAAACYAAAAkgAAAJMAAACTAAAAkQAAAI8AAACQAAAAkAAAAJAAAACQAAAAjwAA
+        AJYAAABtAAAABQAAABsAAAB/AAAAEQAAAAcAAAAIAAAABgAAADwAAABzAAAAcgAAAHIAAAByAAAAcgAA
+        AHIAAAB3AAAAqwAAACQAAAAhAAAAeQAAABsAAAAdAAAAHQAAABwAAAA3AAAAVAAAAFMAAABTAAAAUwAA
+        AFMAAABTAAAAWgAAAK0AAAAsAAAAHQAAAMEAAADcAAAA3wAAAN8AAADfAAAA3QAAANwAAADcAAAA3AAA
+        ANoAAADdAAAA3AAAANcAAADMAAAAKgAAABwAAADYAAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAA
+        AP8AAADEAAAAxQAAAP8AAAD/AAAA4wAAACkAAAAcAAAA2AAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAA
+        AP8AAAD/AAAAoAAAACkAAADDAAAA/wAAAOMAAAApAAAAHAAAANgAAAD/AAAA/wAAAP8AAAD/AAAA/wAA
+        AP8AAAD/AAAA/wAAAKsAAAADAAAAJgAAAMMAAADkAAAAKQAAABwAAADYAAAA/wAAAP8AAAD/AAAA/wAA
+        AP8AAAD/AAAA/wAAAP8AAADsAAAAnwAAAI4AAAC3AAAA4AAAACkAAAAcAAAA2AAAAP8AAAD/AAAA/wAA
+        AP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAOMAAAApAAAAHAAAANgAAAD/AAAA/wAA
+        AP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAPUAAAD4AAAA/wAAAP8AAADjAAAAKQAAABwAAADYAAAA/wAA
+        APEAAAD2AAAA/wAAAO4AAAD7AAAA/wAAAP8AAACsAAAAxwAAAP8AAAD/AAAA4wAAACkAAAAcAAAA2AAA
+        AP8AAACsAAAAagAAAKQAAABmAAAA8QAAAPEAAADZAAAAhAAAAJ4AAADbAAAA+QAAAOMAAAApAAAAHAAA
+        ANgAAAD/AAAAowAAAAMAAAADAAAANgAAAPMAAADYAAAAjgAAAFYAAABnAAAAlQAAAOoAAADkAAAAKQAA
+        AB0AAADYAAAA/wAAAKMAAAABAAAAAAAAADYAAADxAAAA/wAAAP8AAACeAAAAvQAAAP8AAAD/AAAA4wAA
+        ACkAAAAXAAAA0AAAAP8AAAClAAAABwAAAAMAAAA7AAAA8QAAAP8AAAD/AAAA0QAAAOAAAAD/AAAA/wAA
+        ANsAAAAhAAAAAgAAAHkAAADrAAAAzQAAAJEAAACPAAAApAAAAOkAAADvAAAA7gAAAPAAAADvAAAA7wAA
+        AOsAAACBAAAABQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAEAAAAAAAAAAAAAAAoAAAAGAAAADAAAAABACAAAAAAAAAJAACJCwAAiQsAAAAAAAAAAAAAAAAAAAAA
+        AAQAAABkAAAAvQAAAMMAAADDAAAAwwAAAMMAAADDAAAAwwAAAMIAAADCAAAAwgAAAMIAAADCAAAAwgAA
+        AMIAAADCAAAAwgAAAMMAAADBAAAAdQAAAAgAAAAAAAAAAAAAAD4AAAC0AAAASwAAADgAAAA4AAAAOAAA
+        ADgAAAA4AAAAOQAAAD0AAAA9AAAAPQAAAD0AAAA9AAAAPQAAAD0AAAA9AAAAPQAAADwAAABLAAAAuAAA
+        AFMAAAAAAAAAAAAAAG4AAAB5AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAALQAAAJ0AAACiAAAAogAA
+        AKIAAACiAAAAogAAAKIAAACiAAAAogAAAKIAAACZAAAAuwAAAIcAAAAAAAAAAAAAAHIAAABzAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAD0AAAA/AAAAPwAAAD8AAAA/AAAAPwAAAD8AAAA/AAAAPwAA
+        AD4AAABPAAAAzAAAAIwAAAAAAAAAAAAAAHAAAACZAAAAbQAAAH0AAAB8AAAAfAAAAHwAAAB8AAAAewAA
+        AHkAAAB4AAAAeAAAAHgAAAB4AAAAeAAAAHgAAAB4AAAAeAAAAHkAAABnAAAAoQAAAIwAAAAAAAAAAAAA
+        AG8AAAD7AAAA/gAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAA
+        AP4AAAD/AAAA/wAAAP8AAAD+AAAA/gAAAIoAAAAAAAAAAAAAAG8AAAD/AAAA/wAAAP8AAAD/AAAA/wAA
+        AP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA5gAAAK8AAAD6AAAA/wAAAP8AAAD/AAAA/wAA
+        AIoAAAAAAAAAAAAAAG8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAA
+        AP8AAAD/AAAA3QAAACsAAACUAAAA/AAAAP8AAAD/AAAA/wAAAIoAAAAAAAAAAAAAAG8AAAD/AAAA/wAA
+        AP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA3gAAABwAAAANAAAAlgAA
+        APwAAAD/AAAA/wAAAIoAAAAAAAAAAAAAAG8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAA
+        AP8AAAD/AAAA/wAAAP8AAAD/AAAA3wAAAB4AAAAAAAAADgAAAJUAAAD7AAAA/wAAAIoAAAAAAAAAAAAA
+        AG8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA8wAA
+        AFgAAAAPAAAADgAAAB0AAACkAAAA/wAAAIoAAAAAAAAAAAAAAG8AAAD/AAAA/wAAAP8AAAD/AAAA/wAA
+        AP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAO0AAADOAAAAzAAAAMsAAADXAAAA/wAA
+        AIoAAAAAAAAAAAAAAG8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAA
+        AP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAIoAAAAAAAAAAAAAAG8AAAD/AAAA/wAA
+        AP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAA
+        AP8AAAD/AAAA/wAAAIoAAAAAAAAAAAAAAG8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAA
+        AP8AAAD/AAAA/wAAAP8AAAD/AAAA+gAAAO0AAAD+AAAA/wAAAP8AAAD/AAAA/wAAAIoAAAAAAAAAAAAA
+        AG8AAAD/AAAA/wAAAP8AAAD9AAAA/wAAAP8AAAD/AAAA/gAAAP4AAAD/AAAA/wAAAP8AAAD/AAAA1AAA
+        AGoAAAD2AAAA/wAAAP8AAAD/AAAA/wAAAIoAAAAAAAAAAAAAAG8AAAD/AAAA/wAAAP8AAACyAAAAwgAA
+        AP8AAAD8AAAAsQAAAMsAAAD/AAAA/wAAAP8AAAD/AAAAzAAAAFEAAAD0AAAA/wAAAP8AAAD/AAAA/wAA
+        AIoAAAAAAAAAAAAAAG8AAAD/AAAA/wAAAP8AAAB9AAAAGAAAAJAAAACCAAAAFgAAAK4AAAD/AAAA+gAA
+        ANgAAADUAAAAqAAAAEIAAADJAAAA0gAAAOIAAAD/AAAA/wAAAIoAAAAAAAAAAAAAAG8AAAD/AAAA/wAA
+        AP8AAAB+AAAAAAAAAAQAAAADAAAABAAAALAAAAD/AAAA6QAAAGYAAABOAAAAPwAAABkAAABLAAAATAAA
+        AIoAAAD9AAAA/wAAAIoAAAAAAAAAAAAAAG8AAAD/AAAA/wAAAP8AAAB+AAAAAAAAAAAAAAAAAAAABAAA
+        ALAAAAD/AAAA/gAAAPQAAAD0AAAAwAAAAEwAAADnAAAA8QAAAPcAAAD/AAAA/wAAAIoAAAAAAAAAAAAA
+        AG8AAAD/AAAA/wAAAP8AAAB+AAAAAAAAAAAAAAAAAAAABAAAALAAAAD/AAAA/wAAAP8AAAD/AAAAzAAA
+        AFAAAAD0AAAA/wAAAP8AAAD/AAAA/wAAAIoAAAAAAAAAAAAAAGwAAAD/AAAA/wAAAP8AAAB9AAAAAAAA
+        AAAAAAAAAAAABAAAAK8AAAD/AAAA/wAAAP8AAAD/AAAA3QAAAIcAAAD4AAAA/wAAAP8AAAD/AAAA/wAA
+        AIYAAAAAAAAAAAAAAEEAAADvAAAA/wAAAP8AAACTAAAAJwAAACoAAAAqAAAALgAAAL0AAAD/AAAA/wAA
+        AP8AAAD/AAAA/gAAAPwAAAD/AAAA/wAAAP8AAAD/AAAA9QAAAFIAAAAAAAAAAAAAAAYAAAB0AAAA2QAA
+        AOYAAADXAAAAygAAAMoAAADKAAAAygAAANwAAADlAAAA5QAAAOUAAADlAAAA5QAAAOUAAADlAAAA5QAA
+        AOUAAADcAAAAfgAAAAkAAAAAgAABAIAAAQCfgAEAn4ABAIAAAQCAAAEAgAABAIAAAQCAAAEAgABBAIAA
+        AQCAAAEAgAABAIAAAQCAAAEAgAABAIAAAQCAAAEAggABAIOAAQCDgAEAg4ABAIAAAQCAAAEAKAAAACAA
+        AABAAAAAAQAgAAAAAAAAEAAAiQsAAIkLAAAAAAAAAAAAAAAAAAAAAAAAAAAAAwAAAFAAAACxAAAAxgAA
+        AMYAAADGAAAAxgAAAMYAAADGAAAAxgAAAMYAAADGAAAAxgAAAMYAAADGAAAAxgAAAMYAAADGAAAAxgAA
+        AMYAAADGAAAAxgAAAMYAAADGAAAAxgAAALgAAABiAAAACQAAAAAAAAAAAAAAAAAAAAAAAABTAAAA2wAA
+        AKQAAACHAAAAhwAAAIcAAACHAAAAhwAAAIcAAACHAAAAhwAAAIYAAACGAAAAhgAAAIYAAACGAAAAhgAA
+        AIYAAACGAAAAhgAAAIYAAACGAAAAhgAAAIYAAACFAAAAoQAAAOMAAABwAAAAAAAAAAAAAAAAAAAACQAA
+        ALgAAACEAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAEgAAABgAAAAXAAAAFwAA
+        ABcAAAAXAAAAFwAAABcAAAAXAAAAFwAAABcAAAAXAAAAFwAAABcAAAASAAAAfAAAANIAAAAXAAAAAAAA
+        AAAAAAAUAAAAzAAAAE4AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABoAAAC4AAAA1gAA
+        ANQAAADUAAAA1AAAANQAAADUAAAA1AAAANQAAADUAAAA1AAAANQAAADUAAAA1QAAAMoAAAC3AAAA4gAA
+        ACgAAAAAAAAAAAAAABQAAADMAAAATAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABwAA
+        AD8AAABMAAAATAAAAEwAAABMAAAATAAAAEwAAABMAAAATAAAAEwAAABMAAAATAAAAEwAAABLAAAAZwAA
+        ANkAAADqAAAAKQAAAAAAAAAAAAAAFAAAAMwAAABNAAAAEAAAAB0AAAAdAAAAHQAAAB0AAAAdAAAAHQAA
+        AB0AAAAcAAAAGQAAABgAAAAYAAAAGAAAABgAAAAYAAAAGAAAABgAAAAYAAAAGAAAABgAAAAYAAAAGAAA
+        ABkAAAALAAAAYwAAAOYAAAApAAAAAAAAAAAAAAAUAAAAzQAAALgAAADNAAAA3QAAAN0AAADdAAAA3QAA
+        AN0AAADdAAAA3QAAAN0AAADdAAAA3QAAAN0AAADdAAAA3QAAAN0AAADdAAAA3QAAAN0AAADdAAAA3QAA
+        AN0AAADdAAAA3QAAAMoAAAC4AAAA5QAAACkAAAAAAAAAAAAAABQAAADSAAAA/wAAAP8AAAD/AAAA/wAA
+        AP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/gAA
+        AP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAADpAAAAKQAAAAAAAAAAAAAAFAAAANIAAAD/AAAA/wAA
+        AP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAA
+        APsAAACyAAAA6gAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAOkAAAApAAAAAAAAAAAAAAAUAAAA0gAA
+        AP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAA
+        AP8AAAD/AAAA/AAAAFgAAABgAAAA7gAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA6QAAACkAAAAAAAAAAAAA
+        ABQAAADSAAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAA
+        AP8AAAD/AAAA/wAAAP8AAAD8AAAAVQAAAAAAAABkAAAA7gAAAP8AAAD/AAAA/wAAAP8AAADpAAAAKQAA
+        AAAAAAAAAAAAFAAAANIAAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAA
+        AP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAPwAAABWAAAAAAAAAAMAAABkAAAA7gAAAP8AAAD/AAAA/wAA
+        AOkAAAApAAAAAAAAAAAAAAAUAAAA0gAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAA
+        AP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/AAAAFYAAAAAAAAAAAAAAAMAAABkAAAA7gAA
+        AP8AAAD/AAAA6QAAACkAAAAAAAAAAAAAABQAAADSAAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAA
+        AP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAAbQAAAAAAAAAAAAAAAAAA
+        AAIAAABhAAAA7AAAAP8AAADpAAAAKQAAAAAAAAAAAAAAFAAAANIAAAD/AAAA/wAAAP8AAAD/AAAA/wAA
+        AP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAADWAAAAWQAA
+        ADgAAAA5AAAAOAAAADoAAACaAAAA/gAAAOkAAAApAAAAAAAAAAAAAAAUAAAA0gAAAP8AAAD/AAAA/wAA
+        AP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAA
+        AP8AAAD6AAAA8gAAAPIAAADyAAAA8gAAAPIAAAD/AAAA6QAAACkAAAAAAAAAAAAAABQAAADSAAAA/wAA
+        AP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAA
+        AP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAADpAAAAKQAAAAAAAAAAAAAAFAAA
+        ANIAAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAA
+        AP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAOkAAAApAAAAAAAA
+        AAAAAAAUAAAA0gAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAA
+        AP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA6QAA
+        ACkAAAAAAAAAAAAAABQAAADSAAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAA
+        AP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA6gAAAPUAAAD/AAAA/wAAAP8AAAD/AAAA/wAA
+        AP8AAADpAAAAKQAAAAAAAAAAAAAAFAAAANIAAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAA
+        AP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAPgAAABaAAAApQAAAP8AAAD/AAAA/wAA
+        AP8AAAD/AAAA/wAAAOkAAAApAAAAAAAAAAAAAAAUAAAA0gAAAP8AAAD/AAAA/wAAAP0AAADWAAAA9QAA
+        AP8AAAD/AAAA/wAAAPcAAADXAAAA/AAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA9AAAADwAAACRAAAA/wAA
+        AP8AAAD/AAAA/wAAAP8AAAD/AAAA6QAAACkAAAAAAAAAAAAAABQAAADSAAAA/wAAAP8AAAD/AAAA/AAA
+        AGIAAABlAAAA4wAAAP8AAADuAAAAdQAAAF8AAAD7AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD0AAAAPAAA
+        AJEAAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAADpAAAAKQAAAAAAAAAAAAAAFAAAANIAAAD/AAAA/wAA
+        AP8AAAD9AAAAWAAAAAAAAAA7AAAAoQAAAFEAAAAAAAAAUgAAAPsAAAD/AAAA/wAAAOQAAADPAAAA0QAA
+        AMcAAAAxAAAAdgAAANMAAADQAAAA0wAAAPQAAAD/AAAA/wAAAOkAAAApAAAAAAAAAAAAAAAUAAAA0gAA
+        AP8AAAD/AAAA/wAAAP0AAABYAAAAAAAAAAAAAAAEAAAAAQAAAAAAAABSAAAA+wAAAP8AAAD9AAAAcwAA
+        ACEAAAAlAAAAIwAAAAkAAAAVAAAAJQAAACQAAAAqAAAAvAAAAP8AAAD/AAAA6QAAACkAAAAAAAAAAAAA
+        ABQAAADSAAAA/wAAAP8AAAD/AAAA/QAAAFgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAFIAAAD7AAAA/wAA
+        AP8AAADjAAAAzAAAAM0AAADEAAAAMAAAAHUAAADQAAAAzQAAANAAAADzAAAA/wAAAP8AAADpAAAAKQAA
+        AAAAAAAAAAAAFAAAANIAAAD/AAAA/wAAAP8AAAD9AAAAWAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAUgAA
+        APsAAAD/AAAA/wAAAP8AAAD/AAAA/wAAAPQAAAA8AAAAkQAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAA
+        AOkAAAApAAAAAAAAAAAAAAAUAAAA0gAAAP8AAAD/AAAA/wAAAP0AAABYAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAABSAAAA+wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA9AAAADwAAACRAAAA/wAAAP8AAAD/AAAA/wAA
+        AP8AAAD/AAAA6QAAACkAAAAAAAAAAAAAABQAAADSAAAA/wAAAP8AAAD/AAAA/QAAAFgAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAFIAAAD7AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD3AAAAWAAAAKMAAAD/AAAA/wAA
+        AP8AAAD/AAAA/wAAAP8AAADoAAAAKAAAAAAAAAAAAAAACgAAALwAAAD/AAAA/wAAAP8AAAD9AAAAWAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAUgAAAPsAAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAADoAAAA9AAA
+        AP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAANMAAAAXAAAAAAAAAAAAAAAAAAAAXwAAAPIAAAD/AAAA/wAA
+        AP4AAAChAAAAbAAAAG4AAABuAAAAbgAAAGwAAACdAAAA/QAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAA
+        AP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD3AAAAcgAAAAAAAAAAAAAAAAAAAAAAAAAHAAAAZQAA
+        AMcAAADbAAAA2gAAANsAAADcAAAA3AAAANwAAADcAAAA3AAAANwAAADaAAAA2gAAANoAAADaAAAA2gAA
+        ANoAAADaAAAA2gAAANoAAADaAAAA2gAAANoAAADbAAAAywAAAHAAAAALAAAAAAAAAADAAAADwAAAA4fw
+        AAGP8AABj/AAAYAAAAGAAAABgAAAAYAAAAGAAAABgAACAYAAAgGAAAMBgAADgYAAAAGAAAABgAAAAYAA
+        AAGAAAABgAAAAYAAAAGAAAABgAAAAYCIAAGAyAABgPgAAYD4AAGA+AABgPgAAYD4AAHAAAADwAAAAygA
+        AAAwAAAAYAAAAAEAIAAAAAAAACQAAIkLAACJCwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAA
+        ACYAAAByAAAAmAAAAJ0AAACcAAAAnAAAAJwAAACcAAAAnAAAAJwAAACcAAAAnAAAAJwAAACcAAAAnAAA
+        AJwAAACcAAAAnAAAAJwAAACcAAAAnAAAAJwAAACcAAAAnAAAAJwAAACcAAAAnAAAAJwAAACcAAAAnAAA
+        AJwAAACcAAAAnAAAAJwAAACcAAAAmwAAAH8AAAA4AAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAABAAAAUQAAANUAAAD+AAAA/QAAAPwAAAD8AAAA/AAAAPwAAAD8AAAA/AAAAPwAAAD8AAAA/AAA
+        APwAAAD8AAAA/AAAAPwAAAD8AAAA/AAAAPwAAAD8AAAA/AAAAPwAAAD8AAAA/AAAAPwAAAD8AAAA/AAA
+        APwAAAD8AAAA/AAAAPwAAAD8AAAA/AAAAPwAAAD8AAAA/QAAAP8AAADmAAAAdAAAAAcAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAA2AAAA4gAAAOoAAACIAAAAVAAAAFAAAABQAAAAUAAAAFAAAABQAAAAUAAA
+        AFAAAABQAAAAUAAAAFAAAABQAAAAUAAAAFAAAABQAAAAUAAAAFAAAABQAAAAUAAAAFAAAABQAAAAUAAA
+        AFAAAABQAAAAUAAAAFAAAABQAAAAUAAAAFAAAABQAAAAUAAAAFAAAABQAAAAUwAAAIIAAADmAAAA9gAA
+        AGAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAACUAAAA+wAAAGMAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAABYAAAA9wAAAMMAAAAPAAAAAAAAAAAAAAAAAAAAAAAAAAwAAADEAAAA2gAAABoAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAALQAAAG8AAAByAAAAcgAA
+        AHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAA
+        AHIAAAByAAAAcAAAAFIAAAAtAAAAzwAAAOkAAAAoAAAAAAAAAAAAAAAAAAAAAAAAABAAAADNAAAAzgAA
+        ABEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAhwAA
+        AP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAA
+        AP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAPwAAADWAAAA6gAAAO0AAAAvAAAAAAAAAAAAAAAAAAAAAAAA
+        ABAAAADNAAAAzwAAABEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAJwAAAGQAAABnAAAAZwAAAGcAAABnAAAAZwAAAGcAAABnAAAAZwAAAGcAAABnAAAAZwAA
+        AGcAAABnAAAAZwAAAGcAAABnAAAAZwAAAGcAAABmAAAAagAAAJkAAADuAAAA/wAAAOwAAAAvAAAAAAAA
+        AAAAAAAAAAAAAAAAABAAAADNAAAAzwAAABEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAABoAAAA+AAA
+        AO0AAAAvAAAAAAAAAAAAAAAAAAAAAAAAABAAAADNAAAAzgAAABEAAAALAAAAGwAAABwAAAAcAAAAHAAA
+        ABwAAAAcAAAAHAAAABwAAAAcAAAAHAAAABwAAAAcAAAAHAAAABwAAAAcAAAAHAAAABwAAAAcAAAAHAAA
+        ABwAAAAcAAAAHAAAABwAAAAcAAAAHAAAABwAAAAcAAAAHAAAABwAAAAcAAAAHAAAABwAAAAcAAAAGgAA
+        AAkAAAAXAAAA1AAAAO8AAAAvAAAAAAAAAAAAAAAAAAAAAAAAABAAAADNAAAA2QAAAHwAAAC+AAAA2gAA
+        ANsAAADbAAAA2wAAANsAAADbAAAA2wAAANsAAADbAAAA2wAAANsAAADbAAAA2wAAANsAAADbAAAA2wAA
+        ANsAAADbAAAA2wAAANsAAADbAAAA2wAAANsAAADbAAAA2wAAANsAAADbAAAA2wAAANsAAADbAAAA2wAA
+        ANsAAADbAAAA2QAAALcAAAB6AAAA4AAAAO4AAAAvAAAAAAAAAAAAAAAAAAAAAAAAABAAAADKAAAA/wAA
+        APwAAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAA
+        AP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAA
+        AP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD8AAAA/gAAAOwAAAAvAAAAAAAAAAAAAAAAAAAAAAAA
+        ABAAAADKAAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAA
+        AP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAA
+        AP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAOwAAAAvAAAAAAAA
+        AAAAAAAAAAAAAAAAABAAAADKAAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAA
+        AP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAA
+        AP8AAAD/AAAA6AAAAMAAAAD9AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAA
+        AOwAAAAvAAAAAAAAAAAAAAAAAAAAAAAAABAAAADKAAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAA
+        AP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAA
+        AP8AAAD/AAAA/wAAAP8AAAD/AAAA2QAAADQAAACpAAAA/gAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAA
+        AP8AAAD/AAAA/wAAAOwAAAAvAAAAAAAAAAAAAAAAAAAAAAAAABAAAADKAAAA/wAAAP8AAAD/AAAA/wAA
+        AP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAA
+        AP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA2gAAABoAAAAXAAAAqgAAAP4AAAD/AAAA/wAA
+        AP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAOwAAAAvAAAAAAAAAAAAAAAAAAAAAAAAABAAAADKAAAA/wAA
+        AP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAA
+        AP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA2gAAABsAAAAAAAAAGQAA
+        AKoAAAD+AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAOwAAAAvAAAAAAAAAAAAAAAAAAAAAAAA
+        ABAAAADKAAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAA
+        AP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA2gAA
+        ABsAAAAAAAAAAAAAABkAAACqAAAA/gAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAOwAAAAvAAAAAAAA
+        AAAAAAAAAAAAAAAAABAAAADKAAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAA
+        AP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAA
+        AP8AAAD/AAAA2gAAABsAAAAAAAAAAAAAAAAAAAAZAAAAqgAAAP4AAAD/AAAA/wAAAP8AAAD/AAAA/wAA
+        AOwAAAAvAAAAAAAAAAAAAAAAAAAAAAAAABAAAADKAAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAA
+        AP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAA
+        AP8AAAD/AAAA/wAAAP8AAAD/AAAA2gAAABsAAAAAAAAAAAAAAAAAAAAAAAAAGQAAAKoAAAD+AAAA/wAA
+        AP8AAAD/AAAA/wAAAOwAAAAvAAAAAAAAAAAAAAAAAAAAAAAAABAAAADKAAAA/wAAAP8AAAD/AAAA/wAA
+        AP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAA
+        AP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA3AAAABwAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        ABkAAACqAAAA/gAAAP8AAAD/AAAA/wAAAOwAAAAvAAAAAAAAAAAAAAAAAAAAAAAAABAAAADKAAAA/wAA
+        AP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAA
+        AP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA7wAAAD0AAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAZAAAAqgAAAP4AAAD/AAAA/wAAAOwAAAAvAAAAAAAAAAAAAAAAAAAAAAAA
+        ABAAAADKAAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAA
+        AP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAA
+        ALYAAAAqAAAABwAAAAYAAAAGAAAABgAAAAYAAAAEAAAAHgAAALAAAAD/AAAA/wAAAOwAAAAvAAAAAAAA
+        AAAAAAAAAAAAAAAAABAAAADKAAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAA
+        AP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAA
+        AP8AAAD/AAAA/wAAAP4AAADgAAAAuQAAALQAAAC0AAAAtAAAALQAAAC0AAAAsgAAAMkAAAD8AAAA/wAA
+        AOwAAAAvAAAAAAAAAAAAAAAAAAAAAAAAABAAAADKAAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAA
+        AP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAA
+        AP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAA
+        AP8AAAD/AAAA/wAAAOwAAAAvAAAAAAAAAAAAAAAAAAAAAAAAABAAAADKAAAA/wAAAP8AAAD/AAAA/wAA
+        AP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAA
+        AP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAA
+        AP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAOwAAAAvAAAAAAAAAAAAAAAAAAAAAAAAABAAAADKAAAA/wAA
+        AP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAA
+        AP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAA
+        AP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAOwAAAAvAAAAAAAAAAAAAAAAAAAAAAAA
+        ABAAAADKAAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAA
+        AP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAA
+        AP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAOwAAAAvAAAAAAAA
+        AAAAAAAAAAAAAAAAABAAAADKAAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAA
+        AP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAA
+        AP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAA
+        AOwAAAAvAAAAAAAAAAAAAAAAAAAAAAAAABAAAADKAAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAA
+        AP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAA
+        AP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAA
+        AP8AAAD/AAAA/wAAAOwAAAAvAAAAAAAAAAAAAAAAAAAAAAAAABAAAADKAAAA/wAAAP8AAAD/AAAA/wAA
+        AP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAA
+        AP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/AAAAOEAAADzAAAA/wAAAP8AAAD/AAAA/wAA
+        AP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAOwAAAAvAAAAAAAAAAAAAAAAAAAAAAAAABAAAADKAAAA/wAA
+        AP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAA
+        AP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA0AAAACkAAACJAAAA/wAA
+        AP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAOwAAAAvAAAAAAAAAAAAAAAAAAAAAAAA
+        ABAAAADKAAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAA
+        AP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAAuwAA
+        AAQAAABnAAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAOwAAAAvAAAAAAAA
+        AAAAAAAAAAAAAAAAABAAAADKAAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA6gAAALYAAAD2AAAA/wAA
+        AP8AAAD/AAAA/wAAAP8AAAD/AAAA3gAAAMAAAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAA
+        AP8AAAD/AAAAuwAAAAUAAABnAAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAA
+        AOwAAAAvAAAAAAAAAAAAAAAAAAAAAAAAABAAAADKAAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA3AAA
+        ACgAAABqAAAA5AAAAP8AAAD/AAAA/wAAAP8AAADFAAAAOAAAAHIAAAD/AAAA/wAAAP8AAAD/AAAA/wAA
+        AP8AAAD/AAAA/wAAAP8AAAD/AAAAuwAAAAUAAABnAAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAA
+        AP8AAAD/AAAA/wAAAOwAAAAvAAAAAAAAAAAAAAAAAAAAAAAAABAAAADKAAAA/wAAAP8AAAD/AAAA/wAA
+        AP8AAAD/AAAA3QAAAB0AAAAAAAAAPAAAAMEAAAD+AAAA+QAAAKAAAAAfAAAAAAAAAHIAAAD/AAAA/wAA
+        AP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAAuwAAAAUAAABoAAAA/wAAAP8AAAD/AAAA/wAA
+        AP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAOwAAAAvAAAAAAAAAAAAAAAAAAAAAAAAABAAAADKAAAA/wAA
+        AP8AAAD/AAAA/wAAAP8AAAD/AAAA3QAAAB0AAAAAAAAAAAAAABoAAACCAAAAbgAAAA0AAAAAAAAAAAAA
+        AHIAAAD/AAAA/wAAAP8AAAD/AAAA/AAAANcAAADIAAAAyAAAAMgAAADLAAAAkwAAAAQAAABRAAAAyQAA
+        AMgAAADIAAAAyAAAAMwAAADxAAAA/wAAAP8AAAD/AAAA/wAAAOwAAAAvAAAAAAAAAAAAAAAAAAAAAAAA
+        ABAAAADKAAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA3QAAAB0AAAAAAAAAAAAAAAAAAAABAAAAAAAA
+        AAAAAAAAAAAAAAAAAHIAAAD/AAAA/wAAAP8AAAD/AAAA2QAAACcAAAAJAAAACwAAAAsAAAALAAAACAAA
+        AAAAAAAEAAAACwAAAAsAAAALAAAACgAAAAsAAACUAAAA/wAAAP8AAAD/AAAA/wAAAOwAAAAvAAAAAAAA
+        AAAAAAAAAAAAAAAAABAAAADKAAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA3QAAAB0AAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHIAAAD/AAAA/wAAAP8AAAD/AAAA7AAAAHcAAABXAAAAWAAA
+        AFgAAABaAAAAQQAAAAIAAAAkAAAAWQAAAFgAAABYAAAAWAAAAFwAAADBAAAA/wAAAP8AAAD/AAAA/wAA
+        AOwAAAAvAAAAAAAAAAAAAAAAAAAAAAAAABAAAADKAAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA3QAA
+        AB0AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHIAAAD/AAAA/wAAAP8AAAD/AAAA/wAA
+        AP4AAAD9AAAA/QAAAP0AAAD/AAAAuQAAAAUAAABmAAAA/QAAAP0AAAD9AAAA/QAAAP0AAAD/AAAA/wAA
+        AP8AAAD/AAAA/wAAAOwAAAAvAAAAAAAAAAAAAAAAAAAAAAAAABAAAADKAAAA/wAAAP8AAAD/AAAA/wAA
+        AP8AAAD/AAAA3QAAAB0AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHIAAAD/AAAA/wAA
+        AP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAAuwAAAAUAAABnAAAA/wAAAP8AAAD/AAAA/wAA
+        AP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAOwAAAAvAAAAAAAAAAAAAAAAAAAAAAAAABAAAADKAAAA/wAA
+        AP8AAAD/AAAA/wAAAP8AAAD/AAAA3QAAAB0AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AHIAAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAAuwAAAAUAAABnAAAA/wAA
+        AP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAOwAAAAvAAAAAAAAAAAAAAAAAAAAAAAA
+        ABAAAADKAAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA3QAAAB0AAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAHIAAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAAuwAA
+        AAQAAABnAAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAOwAAAAvAAAAAAAA
+        AAAAAAAAAAAAAAAAABAAAADKAAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA3QAAAB0AAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHIAAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAA
+        AP8AAAD/AAAAvgAAAAYAAABrAAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAA
+        AOwAAAAvAAAAAAAAAAAAAAAAAAAAAAAAAA0AAADEAAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA3QAA
+        AB0AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHIAAAD/AAAA/wAAAP8AAAD/AAAA/wAA
+        AP8AAAD/AAAA/wAAAP8AAAD/AAAA6QAAAIEAAADAAAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAA
+        AP8AAAD/AAAA/wAAAOcAAAApAAAAAAAAAAAAAAAAAAAAAAAAAAIAAACeAAAA/wAAAP8AAAD/AAAA/wAA
+        AP8AAAD/AAAA3QAAAB0AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHIAAAD/AAAA/wAA
+        AP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAA
+        AP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAMIAAAAPAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABGAAAA7QAA
+        AP8AAAD/AAAA/wAAAP8AAAD/AAAA5AAAAEkAAAAwAAAAMQAAADEAAAAxAAAAMQAAADEAAAAxAAAALgAA
+        AI0AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAA
+        AP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA9wAAAGIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAEAAAAawAAAOgAAAD/AAAA/wAAAP8AAAD/AAAA/QAAAPEAAADvAAAA8AAAAPAAAADwAAAA8AAA
+        APAAAADwAAAA7wAAAPcAAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAA
+        AP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAADvAAAAgAAAAAkAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAEEAAACaAAAAwAAAAMQAAADEAAAAxAAAAMUAAADFAAAAxQAA
+        AMUAAADFAAAAxQAAAMUAAADFAAAAxQAAAMUAAADEAAAAxAAAAMQAAADEAAAAxAAAAMQAAADEAAAAxAAA
+        AMQAAADEAAAAxAAAAMQAAADEAAAAxAAAAMQAAADEAAAAxAAAAMQAAADEAAAAwgAAAKMAAABNAAAABwAA
+        AAAAAAAAAAAAAAAAAADwAAAAAA8AAOAAAAAABwAA4AAAAAAHAADD/////8MAAMP/4AAAAwAAw//gAAAD
+        AADD/+AAAAMAAMP/////gwAAwAAAAAADAADAAAAAAAMAAMAAAAAAAwAAwAAAAAADAADAAAAAAAMAAMAA
+        AAAAAwAAwAAAAAADAADAAAAAQAMAAMAAAABgAwAAwAAAAHADAADAAAAAeAMAAMAAAAB8AwAAwAAAAH4D
+        AADAAAAAAAMAAMAAAAAAAwAAwAAAAAADAADAAAAAAAMAAMAAAAAAAwAAwAAAAAADAADAAAAAAAMAAMAA
+        AAAAAwAAwAAAAAADAADAAAAAAAMAAMAAAAAAAwAAwAAAAAADAADAAAAAAAMAAMAIEAAAAwAAwAwwAAAD
+        AADADvAAgAMAAMAP8AAAAwAAwA/wAAADAADAD/AAAAMAAMAP8AAAAwAAwA/wAAADAADAD/AAAAMAAMAP
+        8AAAAwAAwA/wAAADAADgAAAAAAcAAOAAAAAABwAA8AAAAAAPAACJUE5HDQoaCgAAAA1JSERSAAABAAAA
+        AQAIBAAAAPZ7YO0AAA1dSURBVHja7Z17kBTFHYC/3XvzOAjHcQrI6wAR5SXn4xSIgAQDVcgjQuEjvtDS
+        mJRKKgoV1ERNLLRQpNQYC0UhWhHLotSKKaMFRBNL4ikGfEQggBC4Qx4K3MEdd7ebP3Br8XZvZ2d2erp3
+        +/fdXwzTPd3T3/avp6dnBgSrCfmUTym9KKecUjpQSIio7orlJCGitNDAQQ5Qxx4a/cgyM/LoSRU/ZAS9
+        KafUN6GEVLRymDp2soH1fMqhTLLKpMEKGc4cLmUIxbrPiKVEOUINa3iD3V77XK8ChDiHm5hBT8K6z4L1
+        nOBTnmM1+70k9iZAF67jVgZJ4xtDI++xmPW0uk2Y5+FgZ7KY26mQeG8Q+VQyCfiMJncJ3QtQzVNMIV93
+        jYUEOjOOcj7mqJtEbgW4hCep0l1ToR3yGUkfPuBI+kncCXA+TzJCdy2FFIQZSk/eoyHdBG7i+ABWMM6X
+        YrbQHMDJyKcggKOYRwtPs5D69HZOP5Z3YqFPzQ9vs1z5EDLCRG62UoF8bmQbT7i/IkjNDdQT9elvWSAn
+        4jqO+1bibPvbydj0TlK6V/IDuY2OgTSb4Ad9+RXd0tkxPQFC/JSRuuskuGISM9PZLT0BBnOFzPplGcXc
+        QE/n3dJr1qkM1l0fwTWj+ZHzTukIUMoU+f1nIYX8hE5OO6XTsMNl8idLqXJuuXQEGEV33TURPFHhfDHo
+        LEAh5+muh+CZC+icegdnAYo5S3ctBM8Mc5oNcBagnDLdtRA8052+qXdwvhdQQQfdtchCvuUffMhRKhhD
+        FUXaylHEAN5NtYOzAB2tvKGSGVtZxJs0ECVMGfO4i66aSlJIReod0hkDyOofdxzhPlZTTxSIsJ8lPEtE
+        U1nCTuo5C5Avk0Au+ZA3v/fvE6ykVltpHPpvaVz/2ZiwGGMXO7SVxmHdhQjgP0cTOvxWN6v0gkUEsBwR
+        wHJEAMsRASxHBLAcEcByRADLEQEsRwSwHBHAckQAyxEBLEcEsBwRwHJEAMsRASxHBLAcEcByRADLEQEs
+        RwSwHBHAckQAyxEBLEcEsBx58LN9jnHIw0OdYQ4nbIvwNf/zkFc+3VR/jkcESM5hVvMatZ6e6q1N+H7P
+        cR7gcQ855dOL6cxyes1LJogAyTjAQla5/fZGCiJs95iyhr+xmfvVvaZXxgCJRFjBCz42f2Yc55k2j5v7
+        igiQyH5eDuR7BulSz5vqdBQBEtnPV7qL0IZtfnwjNDkiQCIh476H5uXbbmkiAiTSnTN0F6ENQyhRlbUI
+        kEg5s4y6OipjOoWqMhcBEgkzj2vV/eZcUs4CJqjL3iTTzaEHS5jIWvZ4+PBSiK0JV/15DKeHh887FzGQ
+        qYxV9/vPFgGKGMZgmviEHQG9ca8Lc5lJk4dGC/Mgj7RJV8JCLvM0rVyiuoWyQYBB3Mk0ymlhJ8t5Lslc
+        uxqKPL7iNXH2PkRHldO5mWD6GKCAabzELfSikA4M5SGWMVB3oXIJswXozkKWU3XKdXkR17CSCYaXO4sw
+        90SGGMHTLKI8YXs1z3Gj6tuktmCqAEVcyUvMbOdNt31ZwoOcpruQuYCZAvTi9zzJ0BRTsp25neWcq7ug
+        2Y95AoQZwwvcQReH/fKZyipmydcMMsM0ATpxC6uYmGa5hvIUv3RURUiBWQJU8hgP089Fih7cJxeGmWCO
+        APn8mBe50fXip2KuYSXjDapJVmHKaevO3azgAk934kNU8zzz5ONWXjBjKngY93B5Rrc8+vAIQ3iYOt1V
+        yTb09wBFzOElrsj4jlcpv+BZRumuTrahW4BePMBTnONLXvlMkQtDt+gMAWEu5DdM8HXF29k8zRD+wCGN
+        9coq9PUAHZnHKib5vuCxO4tYSqW2emUZenqAKP1ZwFxF98iLuZpKFhi3ttdI9AhQxZ+oVthAIS7iebaK
+        As7oEUBl48cYQH8RwBk9Y4BgGkaaPw10XwYKmhEBLEcEsBwRwHJEAMsRAYLB2CsSEcB/yhKmtwvoprtQ
+        7SEC+E8VXdtsGUR/3YVqDxHAf0Yy+3vntTM300N3odrDjBVBuUUHFlHIK9QSoYCB/Iy5uovUPiKACk5n
+        MVfzBQ2UMYJKk/tZEUANhYxmtO5CpIPBbgpBIAJYjghgOSKA5YgAliMCWI4IYDkigOWIAJYjAliOCGA5
+        IoDliACWIwJYjghgOSKA5YgAliMCWI4IYDkigOWIAJYjAliOCGA5IoDliACWIwJYjghgOSKA5YgAliMC
+        WI4IYDkigOWIAJYjAliOCGA5IoDliACWIwJYjrwmLliiNBPxNceizF5ELQIEQyO7+ZjPqKWeVt9yDTGN
+        OZm1oQigngbW8yrr2EcjUV9znkZ1pi0oAqhmI0v4C9/6nm+I6SylT6bZiAAqaeFV7uNLBTn71PwigEpa
+        WMGv2a8g5zAzWOJH84sAKnmNe5Q0f4jpPOpP88s8gDo+5372Kcg3xHQe86v5RQBVnOAJNinI17fYH0ME
+        UEMNaxTkGmamn79+kDGAGlp5nTrfc/U19seQHkAFh3jH9zx9jv0xRAAVbGGXzzn6HvtjiAAq2MIRX/NT
+        EPtjyBhABXU0+ZhbmBn+x/545oL/HPMxLyVDvzgigAr8u+MfYoaqzv8kIoDJKIz98UMIpqI09scPIpiJ
+        4tgfQwQwE+WxP4YIYCIBxP74oQTTCCT2xw8mmEVAsT+GCGAWgcX+GCKASQQY++OHFEwh0NgfP6hgBgHH
+        /hgigBkEHvtjiAAmoCH2xw8t6EZL7I8fXNCLptgfQwTQi7bYH0ME0InG2B8vgqALrbE/XghBD5pjfwwR
+        QA/aY38MEUAHBsT+eFGEoDEi9scLIwSLIbE/hggQLMbE/hgiQJAYFPvjRRKCIsxMkzr/WKGEYAj592Yv
+        PxEBgiFk0sj/VESAIDAw9seLJqjGyNgfL5ygFkNjfwx5Q4haTl73n6G7GO0jPYBKQsw0u/lFAJWEmWVu
+        7I8XUlCD4bE/howBVGF47I8hPYAKQkzLjuaXHkANk7ne/M7/JCKACsZk9im3IJEQoIKsaX4RwHpEAMsR
+        ASxHBLAcEcByRADLEQEsRwSwHBHAcrwI8A1fEdVdcKENDRzyksyLAHXM521RwCgO8DvWeknoLQT8m5tY
+        ykHdtRYAaOY9buZRGrwk9nY3MMQuFvIGVzCefhTrPgPW0kotH7GGt6gj7O0WlPfbwU2s4136UMUFTGQQ
+        HXWfDato5RDvsI6P+JzG77Y1e8kos/UArexgB2vowVjOox9dKMimW6FZSJRWGtjLf9jEhu91+lFWMZLR
+        bjP0Y0FIC3t5mVcooYg83Wco54lygmO0JNn+Prv0CHCSCA3ehiGCT5TSzX0imQjKHcrp5T6RCJA7DKC3
+        +0QiQK4Q4lIvF+QiQK4wgMlekokAuUGY2ZzpLaGQC5zLDd4uwUWAXOB07mGgt6QiQPZTxm+Z6jWxCJDt
+        9GMJ13ufgZVnA7OZYi5hAWMz+RmLANlKKecxl8vpnlk2uSlAVyoo1F0IReTRgd6MoppzKMs8u9wToBOz
+        mUMlRboLooQQ+XSixL+xW64JUMR87qaD7mJkD7l2FXA+t0nzuyHXBJhAD91FyC5yS4Aw/XQXQSPHvCzI
+        yS0BoEl3ATQRZRt3sd59wtwaBEbYRNTCZal1rOEZNjHGfVJnAaIJzwCFDD7Fb/EJo3QXIkCa2c5b/JmP
+        aSKUtD+PpM7AWYATtLbZUmzwJMt/WcBDDM+xni2RZo6wjxrW8U+2f9dChUlXBDkERecTVZ/wwEFXOuuu
+        fwreZjuXcXbOPqjSQj0H2Ms2vuQgJ075n1J+kLB3K4dTZ+cswAGOt9lSSl8+0H0e2iXKNp6gIGf7gAgt
+        CX3yScqTLAptZl/q7JxPUx3ftHntaZhqVhv+dHCztwelsprBSZaFN7EjdSLny8AGtiRsG8NpumsrtCGP
+        yUnGZgfYlTqZswBN1CRsG8p43fUV2jCYS5Ns3ez02oh0JoI+ShhIlHAt5bprLJxCHldSmWT7Bo5mnnk5
+        7xNt89fIfHkQ1CDGsTuhjaLUcbE/2d+bJPPdXKa71sJ3DGBdkhaK8oZfF8Mj2Jkk+01cpLvmAtCb1USS
+        tE8j1/h1iHweT2rYJqZIINDMWayhJWnr/J0K/w4zgi1JD7KHe7Pj2zg5SSlXsTHprz9KPVf5eagwd9KY
+        9EAt/Is7GCLrcAKlgN7M5nWOJm2TKFFepDSdjNK/r1fGH5nVzv+1sJsP2cwO9tNo+BxhtlNIV/owlCqG
+        pHgc/HOuZmM62bm5sTuclYxI8f8RGpPcOxT8JUwBJQ4jrwP8XM1k/eSkVwPyZ9ZfPfMpSLdJ3Y3ht/MV
+        F9LVf7ME36hnMcvSXxrn9iJuC1sYKdPAxnKQB1mWcAM/BW4FiLKVGvrR3+BlYfbyBXfxgruFsV6mcfaw
+        jmYG0Ul3fYVTOMarzGet20G4199xARdzK5OSLEISguc4NTzDa17u/GXSkXdkHHOYwGnpjzkFn2nlWzbw
+        Cn91WvrVHplG8hIqGU81w+hDCXk596CJmURppZlaPqOGtWx2WviZCn+GciX0oIJ+9KYbJTm7HNMMIjRy
+        mFp2sJevOaK7OIIgZDP/B47oIr7mRjdTAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Library Management System</value>
+  </data>
+  <data name="&gt;&gt;BackgroundWorker1.Name" xml:space="preserve">
+    <value>BackgroundWorker1</value>
+  </data>
+  <data name="&gt;&gt;BackgroundWorker1.Type" xml:space="preserve">
+    <value>System.ComponentModel.BackgroundWorker, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>MainWindow</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+</root>
